@@ -53,6 +53,9 @@ const deleteNote = (id) =>
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
+  // Added this because the browser kept logging an error if the notes list was empty but the user clicked on it. Then it the app wouldn't clear the input fields after inputing new notes- it would only clear the input fields if the user clicked ont he new notes button.
+  if (!activeNote) return;
+
   if (activeNote.id) {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);

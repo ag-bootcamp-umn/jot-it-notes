@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static("public"));
 
+// re-route everything to the routes folder
 app.use(routes);
 
 app.listen(PORT, () =>
