@@ -21,8 +21,13 @@ To access the app without installation, use the [Heroku deployment](https://jot-
 
 ## Usage
 From the Start Page, click the "Get Started" button to visit the notes page.
-In the notes page, click on the input fields marked with the words "Note Title" and "Note Text". Once both fields contain text, a save icon will appear in the top-right corner. Click this to save your note. Titles of saved notes will appear in the left-hand column. To see the content of the note, click the title and the entire note will appear in the input area.
+In the notes page, click on the input fields marked with the words "Note Title" and "Note Text". 
+
+Once both fields contain text, a save icon will appear in the top-right corner. Click this to save your note. Titles of saved notes will appear in the left-hand column. To see the content of the note, click the title and the entire note will appear in the input area.
+
 To add a new note, at any point, click the 'plus' icon, also located in the top-right corner of the app.
+
+To delete a note at any time, click the trash icon next to the note title in the notes list on the left side of the page.
 
 ## Screenshots
 ![Start Page](./assets/img-1.png)
